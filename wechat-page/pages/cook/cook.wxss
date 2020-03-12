@@ -1,0 +1,80 @@
+
+/* 上面部分 */
+.cook{
+  width:700rpx;
+  margin:0 auto;
+  height:300rpx;
+  padding-bottom:5px;
+}
+.cook-head{
+  width:100%;
+  height:80rpx;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom:1px solid #ccc;
+}
+.cook-head-img{
+  width:15px;
+  height:15px;
+}
+.date{
+  margin:0 5px;
+}
+.week{
+  margin:0 5px;
+}
+
+/* 上面部分 */
+
+/* 下面部分 */
+.cook-body{
+  width:700rpx;
+  height:220rpx;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.cook-body-img{
+  width:280rpx;
+  height:170rpx;
+  margin-top:20rpx;
+}
+
+.cook-body-right{
+  width:400rpx;
+  height:170rpx;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top:20rpx;
+}
+
+.cook-body-right-bottom{
+  display:flex;
+  justify-content: space-between;
+}
+.cook-price{
+  color:#ff5e54;
+}
+.cook-comments{
+  border:1px solid #ff5e54;
+  padding:5px;
+  border-radius: 4px;
+  color:#ff5e54;
+}
+
+.border-bottom{
+  border-bottom:25rpx solid #ccc;
+}
+
+/* 下面部分 */
+
+
+
+
+
+
+
+

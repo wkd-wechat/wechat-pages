@@ -1,0 +1,216 @@
+<!-- 第一部分 -->
+<view class="head">
+    <swiper class="head-swiper"
+       indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" 
+        interval="{{interval}}" 
+        duration="{{duration}}"
+        circular="true"
+        >
+          <swiper-item wx:for="{{swiperArr}}" wx:key="xxx">
+            <image src="{{item.img_url}}"></image>
+          </swiper-item>
+          <!-- <swiper-item>
+            <image src="../img/12.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../img/8.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../img/12.png"></image>
+          </swiper-item> -->
+      </swiper>
+
+    <view class="head-search">
+      <image class="head-search-img" src="../img/3.png"></image>
+      <view class="head-search-txt">搜索美食,菜谱</view>
+    </view> 
+
+ </view>     
+<!-- 第一部分 -->
+
+<!-- 第二部分 -->
+<view class="head-nav">
+  <view class="head-nav-item" wx:for="{{headNavArr}}" wx:key="yy">
+    <image src="{{item.wxImg.img_url}}"></image>
+    <view class="head-nav-item-text">{{item.type_nmae}}</view>
+  </view>
+  <!-- <view class="head-nav-item">
+    <image src="../img/5.png"></image>
+    <view class="head-nav-item-text">名厨</view>
+  </view>
+  <view class="head-nav-item">
+    <image src="../img/6.png"></image>
+    <view class="head-nav-item-text">坝坝宴</view>
+  </view>
+  <view class="head-nav-item">
+    <image src="../img/7.png"></image>
+    <view class="head-nav-item-text">餐饮周边</view>
+  </view> -->
+
+</view>
+
+<!-- 第二部分 -->
+
+<!-- 第三部分 -->
+<view class="banner">
+<image src="../img/8.png"></image>
+
+</view>
+<view class="border-bottom"></view>
+<!-- 第三部分 -->
+
+<!-- 第四部分 -->
+<view class="good-cook">
+    <image class="good-cook-head-img" src="../img/9.png"></image>
+    
+      <view class="good-cook-box">
+      <!-- good-cook-item -->
+      <view class="good-cook-item">
+        <image class="good-cook-item-img" src="../img/24.png"></image>
+        <view class="good-cook-name">张小美</view>
+        <view class="good-cook-star">
+        <image class="good-cook-star-img" src="../img/star.png"></image>
+        </view>
+      </view>
+      <!-- good-cook-item -->
+      <!-- good-cook-item -->
+
+      <view class="good-cook-item">
+        <image class="good-cook-item-img" src="../img/24.png"></image>
+        <view class="good-cook-name">张小美</view>
+        <view class="good-cook-star">
+        <image class="good-cook-star-img" src="../img/star.png"></image>
+        </view>
+      </view>   
+      <!-- good-cook-item -->
+      <!-- good-cook-item -->
+
+      <view class="good-cook-item">
+        <image class="good-cook-item-img" src="../img/24.png"></image>
+        <view class="good-cook-name">张小美</view>
+        <view class="good-cook-star">
+        <image class="good-cook-star-img" src="../img/star.png"></image>
+        </view>
+      </view>
+      <!-- good-cook-item -->
+
+  </view>
+    <view class="cook-more">
+    更多名厨
+    </view>
+</view>
+<view class="border-bottom"></view>
+<!-- end 第四部分 -->
+
+<!-- 第五部分 -->
+<view class="preferred-meal">
+<!-- 优选餐宴头部图片 -->
+  <image class="preferred-meal-head-img" src="../img/10.png"></image>
+<!-- 优选餐宴头部图片 -->
+
+<!-- 滚动view -->
+    <scroll-view 
+            class="preferred-meal-scroll"  
+            scroll-x="true" 
+            bindscroll="scroll"              
+            style="width: 100%"
+            >
+      <!-- 注意在item的外层要包一层view -->
+      <view class="preferred-meal-item-out">
+          <!-- preferred-meal-item -->
+          <view class="preferred-meal-item">
+            <image class="preferred-meal-item-img" src="../img/12.png"></image>
+            <view class="preferred-meal-item-title">盛夏海鲜餐宴</view>
+            <view class="preferred-meal-item-price">￥4999/桌</view>
+
+          </view>
+          <!-- preferred-meal-item -->
+          <!-- preferred-meal-item -->
+          <view class="preferred-meal-item">
+            <image class="preferred-meal-item-img" src="../img/25.png"></image>
+            <view class="preferred-meal-item-title">精品西式家宴</view>
+            <view class="preferred-meal-item-price">￥1999/桌</view>
+
+          </view>
+          <!-- preferred-meal-item -->
+          <!-- preferred-meal-item -->
+          <view class="preferred-meal-item">
+            <image class="preferred-meal-item-img" src="../img/12.png"></image>
+            <view class="preferred-meal-item-title">盛夏海鲜餐宴</view>
+            <view class="preferred-meal-item-price">￥4999/桌</view>
+
+          </view>
+          <!-- preferred-meal-item -->
+          
+
+      </view>
+      <!-- 注意在item的外层要包一层view -->
+
+    </scroll-view>
+  
+<!-- 滚动view -->
+    <view class="cook-more">
+    更多餐宴
+    </view>
+  </view>
+<view class="border-bottom"></view>
+<!-- end 第五部分 -->
+
+<!-- 第六部分 -->
+<view class="footer-nav">
+
+<!-- footer-nav-item -->
+  <view class="footer-nav-item-out">
+  <view class="footer-nav-item">
+    <image class="footer-nav-item-img" src="../img/13.png"></image>
+    <view class="footer-nav-item-des">
+      <view class="footer-nav-item-des1">信用保障</view>
+      <view class="footer-nav-item-des2">服务到位 信用准时</view>
+    </view>
+  </view>
+  </view>
+  <!-- footer-nav-item -->
+<!-- footer-nav-item -->
+  <view class="footer-nav-item-out">
+  <view class="footer-nav-item">
+    <image class="footer-nav-item-img" src="../img/14.png"></image>
+    <view class="footer-nav-item-des">
+      <view class="footer-nav-item-des1">论证服务商</view>
+      <view class="footer-nav-item-des2">厨师实名 服务可靠</view>
+    </view>
+  </view>
+  </view>
+  <!-- footer-nav-item -->
+<!-- footer-nav-item -->
+  <view class="footer-nav-item-out">
+  <view class="footer-nav-item">
+    <image class="footer-nav-item-img" src="../img/15.png"></image>
+    <view class="footer-nav-item-des">
+      <view class="footer-nav-item-des1">品质服务</view>
+      <view class="footer-nav-item-des2">知名品牌 星级厨师</view>
+    </view>
+  </view>
+  </view>
+  <!-- footer-nav-item -->
+<!-- footer-nav-item -->
+  <view class="footer-nav-item-out">
+  <view class="footer-nav-item">
+    <image class="footer-nav-item-img" src="../img/16.png"></image>
+    <view class="footer-nav-item-des">
+      <view class="footer-nav-item-des1">安全保障</view>
+      <view class="footer-nav-item-des2">全平台在线支持</view>
+    </view>
+  </view>
+  </view>
+  <!-- footer-nav-item -->
+</view>
+<!-- end 第六部分 -->
+
+<!-- 第七部分 -->
+<view class="footer-banner">
+  <image src="../img/banner.png"></image>
+</view>
+<!-- end 第七部分 -->
+
+

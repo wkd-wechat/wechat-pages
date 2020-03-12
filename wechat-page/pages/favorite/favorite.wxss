@@ -1,0 +1,125 @@
+
+/* 第一部分 */
+.head{
+  width:700rpx;
+  height:90rpx;
+  /* background-color:red; */
+  margin:0 25rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-left{
+  display:flex;
+  align-items: center;
+}
+
+.head-left image{
+  width:15px;
+  height:15px;
+}
+.head-left-text{
+  font-size:16px;
+  margin-left:5px;
+}
+
+.head-right{
+  display:flex;
+  align-items: center;
+}
+.head-right image{
+  width:15px;
+  height:15px;
+  margin-right:5px;
+}
+.head-right .head-right-text{
+  color:#ccc;
+}
+
+/* 第一部分 */
+
+/* 第二部分 */
+.feast{
+  width:700rpx;
+  height:550rpx;
+  /* background-color:blue; */
+  margin:20px auto;
+  box-shadow: 5px 5px 20px #ccc;
+  border-radius:5px;
+  position:relative;
+}
+.feast .feast-img1{
+  width:100%;
+  height:420rpx;
+}
+
+.feast-bottom{
+  width:100%;
+  height:130rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.feast-bottom-left-title{
+  font-weight:bold;
+}
+.feast-bottom-left-price{
+  color:#f06f5c;
+}
+
+.feast-bottom-right{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feast-img2{
+  width:25px;
+  height:25px;
+}
+.cancel-favorite{
+  color:#ccc;
+}
+
+.feast-hot{
+  width:130rpx;
+  height:50rpx;
+  background-color:#b6b9bb;
+  position: absolute;
+  bottom:145rpx;
+  right:20rpx;
+  border-radius:4px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.feast-hot-img{
+  width:15px;
+  height:15px;
+  margin-right:5px;
+}
+.feast-hot-value{
+  color:#fff;
+}
+
+/* end第二部分 */
+
+
+/* 第三部分 */
+page,.noFavorite{
+  width:100%;
+  height:100%;
+}
+.noFavorite image{
+  width:270rpx;
+  height:270rpx;
+  display:block;
+  margin:120px auto;
+}
+
+/* 第三部分 */
+

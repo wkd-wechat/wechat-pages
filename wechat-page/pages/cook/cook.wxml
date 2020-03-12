@@ -1,0 +1,40 @@
+<!-- cook -->
+<view class="cook" wx:for="{{cookArr}}" wx:key="xx">
+  <!-- 上面部分 -->
+  <view class="cook-head">
+    <image class="cook-head-img" src="{{item.headImg}}"></image>
+    <view class="date">{{item.date}}</view>
+    <view class="time">{{item.time}}</view>
+    <view class="week">{{item.week}}</view>
+    <view class="chef">名厨上门</view>
+  </view>
+  <!-- 上面部分 -->
+  <!-- 下面部分 -->
+  <view class="cook-body">
+    <image class="cook-body-img" src="{{item.bodyImg}}"></image>
+    <view class="cook-body-right">
+      <view class="cook-body-right-top">
+        {{item.title}}
+      </view>
+      <view class="cook-body-right-bottom">
+        <view class="cook-price">￥{{item.price}}/桌</view>
+        <view class="cook-comments">评论</view>
+      </view>    
+    </view>
+  </view>
+  <!-- 下面部分 -->
+</view>
+<view class="border-bottom"></view>
+
+<!-- cook -->
+
+
+
+
+
+
+
+
+
+
+

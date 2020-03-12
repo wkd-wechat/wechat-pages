@@ -1,0 +1,60 @@
+
+/* 第一部分 */
+.head{
+  width:700rpx;
+  height:130rpx;
+  margin:0 auto;
+  padding:50rpx 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #ccc;
+}
+
+.head image{
+  width:130rpx;
+  height:130rpx;
+}
+.head-left{
+  font-size:25px;
+}
+.head-left-top{
+  font-weight:bold;
+}
+.head-left-bottom{
+  color:#ccc;
+  font-size:16px;
+}
+/* 第一部分 */
+
+
+/* 第二部分 */
+.bottom{
+  width:700rpx;
+  margin:0 auto;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top:20rpx ;
+}
+.bottom-right{
+  width:630rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:20rpx;
+  border-bottom:1px solid #ccc;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+}
+.bottom-img1{
+  width:50rpx;
+  height:50rpx;
+}
+.bottom-img2{
+  width:50rpx;
+  height:50rpx;
+}
+
+/* 第二部分 */
+

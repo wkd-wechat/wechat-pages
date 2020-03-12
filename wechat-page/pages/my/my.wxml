@@ -1,0 +1,29 @@
+
+<!-- 第一部分 -->
+<view class="head">
+  <view class="head-left">
+    <view class="head-left-top">天下第一吃货</view>
+    <view class="head-left-bottom">欢迎您光临四海香</view>
+  </view>
+  <image src="../img/24.png"></image>
+</view>
+
+<!-- end第一部分 -->
+
+<!-- 第二部分 -->
+<view class="bottom" wx:for="{{myArr}}">
+  <image class="bottom-img1" src="{{item.bottomImg}}"></image>
+  <view class="bottom-right">
+    <view class="bottom-text">{{item.txt}}</view>
+    <image class="bottom-img2" src="../img/arrow.png"></image>
+  </view>
+</view>
+
+<!-- end第二部分 -->
+
+
+
+
+
+
+

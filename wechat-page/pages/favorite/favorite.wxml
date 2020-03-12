@@ -1,0 +1,56 @@
+<!-- 第一部分 -->
+<view class="head">
+<!-- left -->
+<view class="head-left">
+  <image src="../img/18.png"></image>
+  <view class="head-left-text">已收藏{{totalNum}}个餐宴</view>
+</view>
+<!-- left -->
+<!-- right -->
+<view class="head-right" bindtap="deleteAll">
+  <image src="../img/19.png"></image>
+  <view class="head-right-text">清空</view>
+</view>
+<!-- right -->
+</view>
+
+
+<!-- 第一部分 -->
+
+<!-- 第二部分 -->
+<block wx:for="{{favoriteArr}}" wx:key="xx" wx:if="{{totalNum != 0}}">
+  <!-- feast -->
+<view class="feast" >
+  <!-- big image -->
+    <image class="feast-img1" src="{{item.imgUrl}}"></image>
+  <!-- big image -->
+  <view class="feast-bottom">
+    <view class="feast-bottom-left">
+      <view class="feast-bottom-left-title">{{item.title}}</view>
+      <view class="feast-bottom-left-price">￥{{item.price}}/桌</view>
+    </view>
+    <view class="feast-bottom-right" bindtap="cancel" data-id="{{item.id}}" >
+      <image class="feast-img2" src="../img/20.png"></image>
+      <view class="cancel-favorite">取消收藏</view>
+    </view>
+  </view>
+
+  <!-- hot -->
+  <view class="feast-hot">
+    <image class="feast-hot-img" src="../img/17.png"></image>
+    <view class="feast-hot-value">{{item.hot}}</view>  
+  </view>
+  <!-- end hot -->
+</view>
+<!-- end feast -->
+</block>
+
+
+<!-- end第二部分 -->
+
+<!-- 第三部分 -->
+<view class="noFavorite" wx:if="{{totalNum == 0}}">
+  <image src="../img/21.png"></image>
+</view>
+<!-- end 第三部分 -->
+
