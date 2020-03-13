@@ -3,48 +3,43 @@
     "pages/index/index",
     "pages/my/my",
     "pages/cook/cook",
-    "pages/favorite/favorite"
-  
+    "pages/favorite/favorite",
+    "pages/service/service"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "四海香",
+    "navigationBarTitleText": "瓜子二手车",
     "navigationBarTextStyle": "black"
   },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
-  ,
+  "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
     "borderStyle": "black",
     "list": [
-              {
-                "selectedIconPath": "pages/img/footer1-sel.png",
-                "iconPath": "pages/img/footer1.png",
-                "pagePath": "pages/index/index",
-                "text": "首页" 
-              },
-              {
-                "selectedIconPath": "pages/img/footer2-sel.png",
-                "iconPath": "pages/img/footer2.png",
-                "pagePath": "pages/favorite/favorite",
-                "text": "收藏" 
-              },
-              {
-                "selectedIconPath": "pages/img/footer3-sel.png",
-                "iconPath": "pages/img/footer3.png",
-                "pagePath": "pages/cook/cook",
-                "text": "烹饪行程" 
-              },
-              {
-                "selectedIconPath": "pages/img/footer4-sel.png",
-                "iconPath": "pages/img/footer4.png",
-                "pagePath": "pages/my/my",
-                "text": "我的" 
-              }
-          ]  
-
+      {
+        "selectedIconPath": "pages/img/shouye2.png",
+        "iconPath": "pages/img/shouye1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/img/kefu2.png",
+        "iconPath": "pages/img/kefu.png",
+        "pagePath": "pages/service/service",
+        "text": "客服"
+      },
+      {
+        "selectedIconPath": "pages/img/wo1.png",
+        "iconPath": "pages/img/wo.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
   }
 }

@@ -1,234 +1,26 @@
-page{
-  height:auto;
-  margin-bottom:20px;
+/* pages/index/index.wxss */
+.page {
+  height: 100Vh;
+  width: 100vw;
 }
 
-/* 第一部分 */
-.head{
-  position:relative;
-}
-.head-swiper{
-  height:380rpx;
-}
-.head-swiper swiper-item{
-  height:380rpx;
-}
-.head-swiper image{
-  width:100%;
-  height:100%;
-}
-
-.head-search{
-  width:690rpx;
-  height:90rpx;
-  margin:0 auto;
-  background-color:#fff;
-  border-radius: 45rpx;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:-40rpx;
-  box-shadow:5px 5px 20px #ccc;
-}
-
-.head .head-search-img{
-  width:20px;
-  height:20px;
-  margin-right:10px;
-}
-.head .head-search-txt{
-  color:#a0a0a0;
-  
-}
-
-.head-swiper .wx-swiper-dots.wx-swiper-dots-horizontal {
-  margin-bottom:50rpx;
-}
-
-
-/* 第一部分 */
-
-/* 第二部分 */
-
-.head-nav{
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  /* background-color:green; */
-  margin-top:50px;
-  margin-bottom:10px;
-}
-
-.head-nav-item{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color:#000;
-  font-weight:bold;
-}
-
-.head-nav image{
-  width:110rpx;
-  height:110rpx;
-  margin-bottom:5px;
-}
-
-/* 第二部分 */
-
-
-/* 第三部分 */
-.banner{
-  width:690rpx;
-  height:300rpx;
-  margin:0 auto;
-  padding-bottom:35rpx;
-}
-.banner image{
-  width:100%;
-  height:100%;
-}
-
-.border-bottom{
-  border-bottom:20rpx solid #eee;
-}
-
-/* 第三部分 */
-
-/* 第四部分 */
-
-.good-cook{
-  width:100%;
-  padding-bottom:20px;
-}
-.good-cook-head-img{
-  width:460rpx;
-  height:90rpx;
-  margin:20px auto;
-  display:block;
-}
-
-.good-cook-item{
-  width:220rpx;
-  height:240rpx;
-  /* background-color:green; */
-  box-shadow: 5px 5px 20px #ccc;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.good-cook-item-img{
-  width:110rpx;
-  height:110rpx;
-}
-
-.good-cook-star{
-  width:130rpx;
-  height:30rpx;
+.page.show {
   overflow: hidden;
 }
 
-.good-cook-star-img{
-  width:130rpx;
-  height:250rpx;
-  margin-top:-98px;
-}
-.good-cook-box{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
+.switch-sex::after {
+  content: "\e716";
 }
 
-.cook-more{
-  width:750rpx;
-  height:60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size:30px;
-  color:#a0a0a0;
-  /* line-height:100px; */
-  /* background-color:red; */
-  margin-top:20px;
+.switch-sex::before {
+  content: "\e7a9";
 }
 
-
-/* 第四部分 */
-
-/* 第五部分 */
-
-.preferred-meal .preferred-meal-head-img{
-  width:460rpx;
-  height:40rpx;
-  margin:20px auto;
-  display:block;
+.switch-music::after {
+  content: "\e66a";
 }
 
-.preferred-meal-item-out{
-  width:auto;
-  display:flex;
-}
-.preferred-meal .preferred-meal-item{
-  width:320rpx;
-  height:310rpx;
-  /* background-color:red; */
-  margin:20px;
-  box-shadow: 5px 5px 20px #ccc;
+.switch-music::before {
+  content: "\e6db";
 }
 
-.preferred-meal-item-img{
-  width:320rpx;
-  height:190rpx;
-}
-.preferred-meal-item-title{
-  font-size:18px;
-  margin-left:5px;
-  margin-bottom:5px;
-}
-.preferred-meal-item-price{
-  font-size:16px;
-  color:#ff7f76;
-  margin-left:5px;
-}
-
-/*end  第五部分 */
-
-/* 第六部分 */
-.footer-nav-item{
-  width:100%;
-  height:160rpx;
-  /* background-color:green; */
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  border-right:1px solid #ccc;
-  border-bottom:1px solid #ccc;
-}
-.footer-nav-item-img{
-  width:70rpx;
-  height:70rpx;
-}
-.footer-nav-item-out{
-  width:50%;
-  height:160rpx;
-  /* float:left; */
-  display:inline-block;
-}
-
-/* end 第六部分 */
-
-/* 第七部分 */
-.footer-banner{
-  margin:20px 0;
-
-}
-.footer-banner image{
-  width:100%;
-  height:390rpx;
-}
-/* end 第七部分 */

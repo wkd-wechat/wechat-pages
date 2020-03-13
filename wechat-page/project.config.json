@@ -25,8 +25,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.0",
-	"appid": "wxcbbc818c2a86f025",
-	"projectname": "shx",
+	"appid": "wx04bb1425bb5183de",
+	"projectname": "wechat-page",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
